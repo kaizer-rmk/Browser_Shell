@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shell Browser</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="style.css" />
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Header -->
+        <div class="jumbotron ">
+            <div class="container">  
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="light_2.png" alt="John Doe" class="mr-3 mt-3 rounded-circle" onclick="promptBox()">
+                </div>
+                <div class="col-md-9">
+                    <h1>Browser Shell Runner</h1>
+                    <h3>{ Click on the yellow icon to activate the shell }</h3>
+<button onclick="clear()" style="position: relative;margin-left: 850px; margin-bottom: 0px; " class="btn btn-primary">Clear Shell</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- Shell -->
+        <div id="root" class="root">
+		</div>
+        <!-- Scripts -->
+       
+        <script src="script.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+		<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+        
+    </body>
+</html>
+
+

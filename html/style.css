@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0%;
+    padding: 0%;
+}
+div{
+   padding:0%;
+   margin:0%;
+}
+body{
+background-color: darkslategray !important;
+}
+img{
+    padding-top: 20px;
+    width: 100px;
+    filter: drop-shadow(2px 3px 2px black);
+}
+pre{
+padding:0% !important;
+border:0px !important;
+border-radius:0% !important;
+margin:0% !important;
+}
+.output{
+	background-color:darkslategray;
+   	color:white;
+	padding:0%;
+	margin:0%;
+}
+.jumbotron{
+    display: flex;
+    background-color: gray !important;
+    padding: 20px !important;
+    margin: 0% !important;
+    color: white !important;
+    height: 30vh;
+}
+.root{
+overflow-y: auto;
+    height: 70vh;
+    margin: 0% !important;
+    padding-top:1%;
+    padding-left:8%;
+    color: white;
+    background-color:darkslategray;
+}
+.inp{
+    padding: 10px;
+    background-color: darkslategray;
+    border: none;
+    width: 70%;
+}
+#labl{
+    color:red;
+}
+.inp:focus{
+    outline: none;
+    background-color: darkslategray;
+    border: none;
+}
+.output{
+	background-color: darkslategray;
+	color:white
+}
+#myButton{
+    display: none !important;
+    visibility:hidden !important;
+}
