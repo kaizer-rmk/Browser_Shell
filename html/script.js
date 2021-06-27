@@ -4,7 +4,7 @@ function exchange(){
 
 	var get = document.getElementById('inp').value
 
-	xhr.open("GET", "http://192.168.43.42/cgi-bin/js_ws.py?cmd="+get,true);
+	xhr.open("GET", "http://192.168.225.31/cgi-bin/js_ws.py?cmd="+get,true);
 	xhr.send()
 	
 	xhr.onload = function(){
@@ -40,19 +40,20 @@ function monitor(){
 });
 }
 
-function clear(){
-	
+function clear_shell(){
+	document.getElementById('shell').remove()
 }
 
 function promptBox(){
 
     var shell = document.createElement('div')
+	shell.setAttribute('id','shell')
 
 	var cmdw = document.createElement('div')
 
     var label = document.createElement("label")
 	label.setAttribute('id', "labl")
-    label.innerHTML="[ root@192.168.43.42 ~ ]"+"# &nbsp"
+    label.innerHTML="[ root@192.168.225.31 ~ ]"+"# &nbsp"
 
     var cmdInput = document.createElement('input')
     cmdInput.setAttribute('type','text')
